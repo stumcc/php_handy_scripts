@@ -1,6 +1,6 @@
 <?php
 # Define the file you want to download
-$target = "http://54.229.13.50/test.html";
+$target = "http://54.229.13.50:81/test.html";
 $file_handle = fopen($target, "r");
 
 # Fetch the file
